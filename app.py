@@ -345,7 +345,7 @@ hr { border-color: #1E293B !important; }
 # ──────────────────────────────────────────
 # DATA & MODEL LOADING
 # ──────────────────────────────────────────
-DATA_PATH = "/mnt/user-data/uploads/ARDS_ICU_V2_15000_final_buan305.csv"
+DATA_PATH = "ARDS_ICU_V2_15000 final buan305.csv"
 
 @st.cache_data(show_spinner=False)
 def load_data():
